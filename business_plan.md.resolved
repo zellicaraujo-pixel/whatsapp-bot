@@ -1,0 +1,46 @@
+# Planejamento do SaaS - Robôs de WhatsApp
+
+## 1. Estrutura de Planos e Preços (Modelo Freemium/Upsell)
+
+A grande sacada deste negócio é a ancoragem de preços. Oferecendo dois planos claros, você elimina a objeção "comprar ou não comprar" e faz o cliente decidir "qual dos dois eu quero".
+
+### 🟢 Plano Essencial (R$ 150/mês)
+**O Robô Clássico (Menu de Opções)**
+* **Como funciona:** O robô envia menus estruturados baseados em números lógicos (Ex: "Digite 1 para Cardápio, 2 para Endereço").
+* **Ideal para:** Lojas pequenas, lanchonetes de bairro e clientes que precisam de uma "peneira" rápida antes de acionar um humano.
+* **Custo operacional (seu):** R$ 0,00 a R$ 25,00/mês (VPS da Evolution API suporta dezenas de clientes desse tipo).
+
+### 🚀 Plano Secretário Inteligente (R$ 250 a R$ 300/mês)
+**O Robô Humanizado (Inteligência Artificial)**
+* **Como funciona:** A API Gratuita do Google Gemini (ou Groq) é conectada ao Cérebro (código Python). Não tem menu numérico. O cliente escreve como se falasse com uma pessoa: *"Vocês teriam um bolo para quem tem alergia a amendoim?"* e a IA responde amigavelmente e com precisão baseada no contexto da loja.
+* **Ideal para:** Clínicas médicas, estética de luxo, prestadores de serviço e boutiques. 
+* **Custo operacional (seu):** Praticamente "zero", usando os planos Free API do Gemini. 
+
+O grande argumento de vendas é oferecer o teste do Essencial e em seguida demonstrar a mágica do Inteligente, estimulando o "Up-Sell" (fazer o cliente pagar o plano superior).
+
+---
+
+## 2. O Super Prompt (Para Copiar e Colar em Casa)
+
+Use este texto abaixo na próxima conversa com a Inteligência Artificial para guiar o desenvolvimento do projeto.
+
+```markdown
+Olá! Eu idealizei uma plataforma SaaS (Multi-Lojas) focada em robôs de atendimento automático no WhatsApp para negócios locais. O meu MVP será 100% focado em usar ferramentas Open-Source e Freemium para que o meu custo operacional no início seja R$ 0,00.
+
+**Meus modelos de venda:**
+- **Plano Essencial (R$ 150/mês):** Robô de opções lógicas com menus predefinidos.
+- **Plano IA Humanizado (R$ 250/mês):** Robô inteligente usando a API Gratuita do Google Gemini (ou Groq) que conversa como um humano baseado nas regras da loja.
+
+**A arquitetura de Hospedagem (O MVP a Custo Zero):**
+1. **Motor Zap:** Evolution API rodando via Docker localmente no Windows.
+2. **Cérebro (Webhook/Lógica):** Servidor Python Flask respondendo com ou sem IA, hospedado no Render (Free Tier).
+3. **Painel do Cliente e BD:** Streamlit Cloud contendo login individual para os donos de lojas (Multi-Tenant) conectados a uma planilha do Google Sheets ou banco SQLite/Supabase. 
+
+Já temos o esqueleto inicial do arquivo "whatsapp.py" pensado para a Evolution API. 
+
+**Por favor, assuma o papel de Desenvolvedor Principal do meu projeto.** 
+Nós vamos programar passo a passo, sem pular etapas. NÃO me jogue o código do projeto inteiro agora.
+
+**PASSO 1:** 
+Me ensine de forma extremamente didática a instalar o Docker Desktop no meu Windows e a rodar o comando para a Evolution API ligar. O meu objetivo neste primeiro mini-passo é conseguir apenas ver o painel da Evolution e gerar o meu primeiro QR Code de teste!
+```

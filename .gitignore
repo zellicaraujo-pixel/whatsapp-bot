@@ -1,0 +1,21 @@
+# Banco de dados
+plataforma.db
+
+# Logs e arquivos temporarios
+payloads_log.txt
+ultimo_payload.json
+qrcode.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

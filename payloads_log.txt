@@ -1,0 +1,768 @@
+
+============================================================
+[21:39:00]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB0409F547CEBE03FD6E6"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "ele ta mandando pro chat comigo mesmo"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671110,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:38:30.667Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:39:04]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB0243154B170BE1A720D"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "manda Oi ou Olá"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671144,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:39:04.280Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:39:04]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3AC3A6E3022738E69271"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Aaaaaah 😔",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "4i/CkZE84gjn5XwOUm2xQVXd7hfKTMbBKOJKI/A6VYA="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671114,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:38:34.797Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:39:06]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3A075FA56D70293FBC94"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "extendedTextMessage": {
+                "text": "Olha aiiii..",
+                "contextInfo": {
+                    "stanzaId": "3EB0E67843837CEFC1DC9F",
+                    "participant": "127732495171668@lid",
+                    "quotedMessage": {
+                        "conversation": "Olá! Bem-vindo à Pizzaria do Mario 🍕\n1 - Fazer Pedido\n2 - Falar com Atendente"
+                    }
+                }
+            },
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "RHYtouV61Bh3FnLtn0DQZ8bgm/+8pJVzBYnYX8juRWk="
+            }
+        },
+        "contextInfo": {
+            "stanzaId": "3EB0E67843837CEFC1DC9F",
+            "participant": "127732495171668@lid",
+            "quotedMessage": {
+                "conversation": "Olá! Bem-vindo à Pizzaria do Mario 🍕\n1 - Fazer Pedido\n2 - Falar com Atendente"
+            }
+        },
+        "messageType": "extendedTextMessage",
+        "messageTimestamp": 1772671086,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:38:06.666Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:39:08]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3A8ED426DC14BCFB4D43"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "extendedTextMessage": {
+                "text": "Entendi",
+                "contextInfo": {
+                    "stanzaId": "3EB0409F547CEBE03FD6E6",
+                    "participant": "127732495171668@lid",
+                    "quotedMessage": {
+                        "conversation": "ele ta mandando pro chat comigo mesmo"
+                    }
+                }
+            },
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "BinWQZLKXWm1Hq5/isWfc6lVT2s4IdGmOswTen1ky4c="
+            }
+        },
+        "contextInfo": {
+            "stanzaId": "3EB0409F547CEBE03FD6E6",
+            "participant": "127732495171668@lid",
+            "quotedMessage": {
+                "conversation": "ele ta mandando pro chat comigo mesmo"
+            }
+        },
+        "messageType": "extendedTextMessage",
+        "messageTimestamp": 1772671117,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:38:38.138Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:39:09]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3A001BEF9AA02089385D"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Era isso amor ?",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "qi9PUUO85Ei8HkjSlwCmjF4VzJl2OuYYYMQm/5hY6ac="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671089,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:38:09.806Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:39:20]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB090101428FE2ECAB00B"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "sim, mas eu que copiei e mandei pra vc"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671100,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:38:20.483Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:39:22]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB06BF966D90E6F516B70"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "não foi o bot"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671102,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:38:22.493Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:39:43]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3AFF0EBA804D63314B86"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Oie",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "h53LHRnPkzalgjwYnA5OsbFw1UuPRLyy5YGvk2Kispk="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671183,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:39:43.820Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:42:35]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB002E2E012F4CB848EED"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "de novo"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671355,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:42:35.657Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:42:51]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3AE853111F09F9D20514"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Oie",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "yyQT91pLCAV76Cq/boKMMrF+UFUYd37vIuJXqLQVf8E="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671371,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:42:51.854Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:43:29]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB0047575A3BE6B7137C4"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "nada ainda"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671409,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:43:29.693Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:46:59]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3A1FB223A9B2F630589F"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2
+            },
+            "reactionMessage": {
+                "key": {
+                    "remoteJid": "150177843298351@lid",
+                    "fromMe": false,
+                    "id": "3EB0047575A3BE6B7137C4"
+                },
+                "text": "😢",
+                "senderTimestampMs": "1772671618031"
+            }
+        },
+        "messageType": "reactionMessage",
+        "messageTimestamp": 1772671618,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:46:59.082Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:48:25]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB0A3D39F82D8E8141DB1"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "agora amor"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671705,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:48:25.451Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:48:27]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB06EA028A52043CEC629"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "manda um Oi ai"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772671707,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:48:27.955Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:54:14]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB060A25DB3053C4CD659"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "conversation": "amore ?"
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772672054,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:54:14.212Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:54:24]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3A15AB64F3A2345C6FCF"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Oie amor",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "QxONmapDSbrjc0w8/K53VUZO8TXKiFCcJITvER/tjs4="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772672064,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:54:24.171Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:54:30]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3AADA93502105042054C"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Desculpam",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "eGPim88L2sQ6TgLJsZKL9Vl7XbZ+zK5R/mZ9gMten0c="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772672069,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:54:29.996Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:54:34]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3A9696678FAA4BCCCD93"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Não apareceu",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "r9r9F1GUv5zKTCeGKe/0EgyGOskR4ozrsdQL/+htDqU="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772672074,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:54:34.977Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:55:18]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": true,
+            "id": "3EB09B4AC584D04FE5FCAD"
+        },
+        "pushName": "Zellic Araujo",
+        "message": {
+            "stickerMessage": {
+                "url": "https://web.whatsapp.net",
+                "fileSha256": "rTD9tzoPqv3cKFvB84tUrVDV11Qjb4NIPM3SPSHJqF8=",
+                "fileEncSha256": "MYDC5MkitYyYCNu5v/S980K3O0bYvK0uXWIS64Dgxvg=",
+                "mediaKey": "GHIWQq/sQctJs4Six9i5y7US1DINhUc9hDADvMwkk8k=",
+                "mimetype": "image/webp",
+                "directPath": "/v/t62.15575-24/593103217_2393908037718614_362036718868908621_n.enc?ccb=11-4&oh=01_Q5Aa3wEyms_s1KHnscjmHrtxQFqSb5qTcyIxzbW4qU9B2lPPSg&oe=69D045E5&_nc_sid=5e03e0",
+                "fileLength": "478246",
+                "mediaKeyTimestamp": "1771610631213",
+                "firstFrameLength": 10346,
+                "firstFrameSidecar": "RzypEjFDqhqAgg==",
+                "isAnimated": true,
+                "stickerSentTs": "1772672118096",
+                "isLottie": false
+            }
+        },
+        "contextInfo": null,
+        "messageType": "stickerMessage",
+        "messageTimestamp": 1772672118,
+        "owner": "PizzariaMario",
+        "source": "web"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:55:18.416Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:55:34]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3AAEC3AC145C05DEF572"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Onw bb",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "EqMLAPWvSGYObIdZkGVyP2cHwj09pYX2LWmQ5TpML2Y="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772672134,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:55:34.975Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
+
+============================================================
+[21:55:42]
+{
+    "event": "messages.upsert",
+    "instance": "PizzariaMario",
+    "data": {
+        "key": {
+            "remoteJid": "150177843298351@lid",
+            "fromMe": false,
+            "id": "3A10AA78A3BBAF6E26A6"
+        },
+        "pushName": "Rebeca Neves",
+        "message": {
+            "conversation": "Eu tava no canva",
+            "messageContextInfo": {
+                "deviceListMetadata": {
+                    "senderKeyHash": "Q0s3kaNJgwzI8A==",
+                    "senderTimestamp": "1772655718",
+                    "recipientKeyHash": "W+Lclj4gX7XxnA==",
+                    "recipientTimestamp": "1772590830"
+                },
+                "deviceListMetadataVersion": 2,
+                "messageSecret": "NzMALPtM9M0ki97gVsnMEmXZpk7wpDHkjs56fEsFzTM="
+            }
+        },
+        "messageType": "conversation",
+        "messageTimestamp": 1772672142,
+        "owner": "PizzariaMario",
+        "source": "ios"
+    },
+    "destination": "http://host.docker.internal:5000/webhook",
+    "date_time": "2026-03-04T21:55:42.939Z",
+    "sender": "559299845160@s.whatsapp.net",
+    "server_url": "http://localhost:8080",
+    "apikey": "token_PizzariaMario"
+}
